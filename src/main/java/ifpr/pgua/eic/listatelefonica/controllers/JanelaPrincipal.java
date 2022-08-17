@@ -34,10 +34,12 @@ public class JanelaPrincipal {
 
     private void carregaTelaCadastro(ActionEvent evento){
         App.pushScreen("CADASTRO");
+        //troca conteudo da janela
     }
 
     private void carregaTelaLista(ActionEvent evento){
         App.pushScreen("LISTA");
+        // (*) esta registrado na classe app
     }
 
     public Parent getRoot(){
